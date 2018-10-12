@@ -1,0 +1,101 @@
+@media (max-width:991px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  button.navbar-toggler {
+    position: absolute;
+    top: -60px;
+    right: 0;
+  }
+  .site-header {
+    padding: 15px 0 10px;
+  }
+  .right-navigation {
+    width: 100%;
+  }
+  .navbar-expand-lg .navbar-nav {
+    align-items: initial;
+  }
+  header.site-header ul li a {
+    display: block;
+  }
+  header .right-navigation .header-panel-dropdown .header-sub-dropdown {
+    position: static;
+  }
+  .nav-item.header-panel-dropdown {
+    margin: 10px 0;
+  }
+  .innovative-companies-wrapper .col, .areas-specialty-wrapper .col {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 10px;
+  }
+  .areas-specialty-wrapper .col {
+    margin-bottom: 30px;
+  }
+  
+}
+
+@media (max-width:767px) {
+  .testimonials-wrapper .col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .testimonials-user {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .areas-specialty-wrapper .col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 35px;
+  }
+.address-outer p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+  }
+  footer.site-footer .col, .fotter-bottom .col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .fotter-bottom p {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  .fotter-bottom .col {
+    margin: 0;
+  }
+  .fotter-bottom .col.text-right {
+    text-align: center !important;
+  }
+}
+
+@media (max-width:639px) {
+  .heading-outer p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width:480px) {
+  .contact-wrapper .conact-form-outer .button-action .btn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
