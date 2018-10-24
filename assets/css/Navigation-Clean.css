@@ -306,9 +306,6 @@ div {
 div {
 }
 
-div {
-}
-
 .logo-container {
   float: left;
 }
@@ -327,5 +324,320 @@ header.site-header ul li a {
 
 .navbar-expand-lg .navbar-nav {
   align-items: center;
+}
+
+.conact-form-outer {
+  /*display: none;*/
+}
+
+.lab-view-wrapper {
+  background: #EBEBEB;
+  padding: 40px 0;
+}
+
+.Labview-items-outer.d-flex {
+  background: #fff;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px 10px;
+  box-shadow: 0 2px 0 rgba(0,0,0,.1);
+  border: 1px solid #ddd;
+}
+
+.Lab_view_thumb img {
+  max-width: 65px;
+}
+
+.Labview-items-outer h5 {
+  font-size: 13px;
+  margin: 0 0 3px 0;
+}
+
+.Labview-items-outer p {
+  font-size: 11px;
+  margin: 0;
+  color: #bbb;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.content {
+  padding-left: 8px;
+}
+
+.lab-view-wrapper .col {
+  padding: 0 8px;
+}
+
+.lab-view-wrapper .row {
+  margin: 0 -8px;
+}
+
+.contact-wrapper .section-title-outer {
+  margin-top: -30px;
+}
+
+.existing-code-section {
+  padding: 45px 0;
+}
+
+.existing-code-header p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.labview-tab-inner ul.nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.labview-tab-outer .tab-content {
+  background: url("../../assets/img/labview-FPGA-code-mast.png");
+  padding: 45px 20px 40px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 270px;
+}
+
+.labview-tab-inner ul.nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  border: none;
+}
+
+.labview-tab-outer .tab-content .tab-pane {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.labview-thumb img {
+  max-height: 110px;
+}
+
+.nav-justified .nav-item p {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.labview-tab-inner ul.nav li.nav-item .nav-link, .labview-tab-inner ul.nav li.nav-item .nav-link.active {
+  border: none;
+  border-radius: 0;
+  padding: 0 5px 30px 5px;
+  background: transparent;
+  position: relative;
+}
+
+.labview-tab-inner ul.nav li.nav-item .nav-link.active:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -23px;
+}
+
+.tab-content-inner h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.tab-content-inner p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.tab-content-inner p span {
+  display: block;
+}
+
+.labview-tab-outer .tab-content:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,102,204,.70);
+}
+
+.labview-tab-outer .tab-content * {
+  position: relative;
+}
+
+.labview-tab-inner ul.nav li.nav-item .nav-link.active:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -23px;
+  z-index: 9;
+}
+
+.lab-view-form .btn.btn-primary {
+  background: #dd3448 !important;
+  outline: 1px solid #dd3448 !important;
+  border: 1px solid #fff !important;
+}
+
+.lab-view-form .btn.btn-primary:hover {
+  background: #0066cc !important;
+  outline: 1px solid #0066cc !important;
+}
+
+.conact-form-outer.lab-view-form {
+  margin-bottom: 70px;
+  max-width: 940px;
+}
+
+.conact-form-outer.lab-view-form .card-body {
+  padding: 20px 80px;
+}
+
+.conact-form-outer.lab-view-form .card-header {
+  padding: 15px 78px;
+}
+
+.labview-case-studies {
+  padding: 50px 0;
+}
+
+.labview-case-studies h2.title {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.case-studies-item h6 {
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0,.6);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.case-studies-item a {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+.case-studies-item {
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.case-studies-item .thumb img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.case-studies-item .thumb {
+  height: 100%;
+}
+
+.labview-case-studies .col {
+  padding: 0 5px;
+}
+
+.labview-case-studies .row {
+  margin: 0 -5px;
+}
+
+.case-studies-item a:hover img {
+  transform: scale(1.1);
+}
+
+.case-studies-item a:hover h6 {
+  background: #000;
+}
+
+.show-more-studies a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.show-more-studies a br {
+  display: none;
+}
+
+.text-right.show-more-studies {
+  margin-top: 20px;
+}
+
+.us-map-outer {
+  background: #f5f5f5;
+  padding: 50px 0;
+}
+
+.us-map-outer .title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.how-choose-wrapper {
+  padding: 50px 0;
+}
+
+.how-choose-heading h2 {
+  font-size: 32px;
+  margin: 0 0 5px;
+  line-height: 30px;
+}
+
+.how-choose-heading p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.how-choose-wrapper .btn {
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #000;
+}
+
+.how-choose-wrapper .btn:hover {
+  background: #0066cc;
+  border-color: #0066cc;
+  color: #fff;
 }
 

@@ -15,7 +15,7 @@
 }
 
 .contact-wrapper {
-  padding: 20px 0 60px 0;
+  padding: 20px 0 40px 0;
 }
 
 .contact-right-info {
@@ -31,9 +31,7 @@ img {
   max-width: 200px;
   margin-left: auto;
 }
-label.error {
-    color: red;
-}
+
 @import url('https://fonts.googleapis.com/css?family=PT + Sans:400, 400i, 700, 700i'); {
 }
 
@@ -57,7 +55,8 @@ body {
 }
 
 .section-title-outer p {
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 0;
 }
 
 .card-header {
@@ -86,7 +85,7 @@ body {
 .conact-form-outer {
   max-width: 1000px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .conact-form-outer .card label {
@@ -307,5 +306,12 @@ header.site-header ul li a:hover {
 header .navbar-light .navbar-toggler {
   color: rgba(255,255,255,.5);
   border-color: rgba(255,255,255,.1);
+}
+
+.nav-justified .nav-item h3 {
+  margin: 25px 0 10px 0;
+  font-size: 32px;
+  line-height: 30px;
+  color: #000;
 }
 
