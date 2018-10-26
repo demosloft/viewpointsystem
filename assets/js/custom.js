@@ -5,5 +5,5 @@ $(document).ready(function(){
         $(this).siblings().find('.header-sub-dropdown').removeClass('show');
         $(this).addClass('onactive');
     });
-    $("#comment-form").validate();
+    $("#contact-form").validate();
 })
